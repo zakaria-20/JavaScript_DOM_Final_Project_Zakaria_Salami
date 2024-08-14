@@ -1,2 +1,45 @@
-h1
-    color: red
+*,
+*:before,
+*:after
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+nav
+    display: flex
+    // justify-content: center
+    align-items: center
+    justify-content: space-around
+    padding-top: 23px
+
+.nav-links
+    display: flex
+    gap: 30px
+
+.nav-links a
+    text-decoration: none
+    color: grey
+    position: relative
+    &:not(.not-after):after
+        content: ""
+        display: block 
+        background-color: #ce1212
+        height: 3px
+        width: 0
+        transition: 0.3s
+        position: relative 
+        bottom: -10px 
+
+.nav-links a:hover:after
+    width: 100%
+
+.nav-btn
+    background-color: #d53535
+    padding: 10px 25px
+    border: none
+    border-radius: 20px
+    color: white
+
+.nav-btn:hover
+    background-color: #d53535e0
+    cursor: pointer
