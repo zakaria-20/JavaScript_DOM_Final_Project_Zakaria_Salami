@@ -12553,6 +12553,25 @@ nav {
   width: 27%;
 }
 
+@media (max-width: 430px) {
+  .section5 {
+    flex-direction: column;
+  }
+  .all-input {
+    flex-direction: column;
+  }
+  .all-input input {
+    width: 70vw;
+  }
+  .img-sec5 {
+    width: 100vw;
+  }
+  .section5 button {
+    width: 50%;
+    position: relative;
+    right: 10%;
+  }
+}
 .footer {
   background-color: #343a40;
   color: #fff;
