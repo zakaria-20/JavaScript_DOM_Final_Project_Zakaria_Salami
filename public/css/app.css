@@ -12205,6 +12205,12 @@ nav {
   cursor: pointer;
 }
 
+@media (max-width: 430px) {
+  .cards-sec3 {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 .section4 {
   background-image: url("../images/stats-bg.jpg");
   background-size: cover;
@@ -12230,6 +12236,12 @@ nav {
   text-align: center;
 }
 
+@media (max-width: 430px) {
+  .section4 {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
 *,
 *:before,
 *:after {
