@@ -12653,4 +12653,10 @@ nav {
   padding-top: 10px;
 }
 
+@media (max-width: 430px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */
