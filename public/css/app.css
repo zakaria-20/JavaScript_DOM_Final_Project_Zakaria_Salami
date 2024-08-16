@@ -11927,6 +11927,34 @@ nav {
   display: none;
 }
 
+@media (max-width: 430px) {
+  .nav-links {
+    position: fixed;
+    top: 12%;
+    right: 5%;
+    left: 5%;
+    bottom: 10%;
+    flex-direction: column;
+    background: white;
+    align-items: start;
+    gap: 20px;
+    display: none;
+  }
+  .menu1 {
+    display: flex;
+  }
+  .close1 {
+    display: flex;
+  }
+  .menu-close {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .nav {
+    display: none;
+  }
+}
 .section1 {
   margin-top: 30px;
   background-color: #f2f2f2;
