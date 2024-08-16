@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
 <body>
-    <nav>
+    <nav class="fixed-top bg-white">
         <div>
             <h1>Yummy</h1>
         </div>
@@ -64,7 +64,10 @@
            
         <img width="40%" src="./public/images/hero-img.png" alt="#####">
     </section>
-
+    <div class="d-flex justify-content-center flex-column align-items-center p-4 title-about">
+        <p>About Us</p>
+        <h1>Learn More <span>About Us</span></h1>
+    </div>
     <section class="sec-about">
         <div class="left-about">
             <div class="left-content-about">
@@ -93,7 +96,17 @@
             </div>
             </div> 
             <p>Ullamco laboris nisi ut aliquip ex ea commodo<br>consequat. Duis aute irure dolor in reprehenderit in<br>voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>Excepteur sint occaecat cupidatat non proident</p>
-           
+            <video
+             class="w-50 vedeo"
+              controls
+              poster="./public/images/about-2.jpg"
+            >
+              <source
+                src="./public/Video/BootstrapMade_Template_Builder_Overview_2.mp4"
+                type="video/mp4"
+              />
+            </video>
+            <!-- <h1>hhhhhhhhhhh</h1> -->
          </div>
       </section> 
        <section class="section3" id="section3">
@@ -568,7 +581,11 @@
                 </div>
           
         </div>
-    </section>   
+    </section>
+    <div class="d-flex flex-column justify-content-center align-items-center p-5">
+        <p class="text-secondary">Book A Table</p>
+        <h1 class="fs-1" style="font-family: statit;">Book Your <span>Stay With Us</span></h1>
+    </div>   
      <section class="section5">
         
         <img src="./public/images/reservation.jpg" class="img-sec5"  alt="">
@@ -592,7 +609,7 @@
     </section>
      <div class="titleContact d-flex flex-column justify-content-center align-items-center bg-light" style="font-family: caveat; height: 30vh;">
         <h3 class=" text-grey" style="font-size: 15px ; color: grey;">CONTACT</h3>
-        <p class="fs-3">Need Help? <span class="text-danger">Contact Us</span></p>
+        <p class="fs-1" style="font-family: statit;">Need Help? <span class="text-danger">Contact Us</span></p>
      </div> 
       <div class="mapscontact d-flex justify-content-center align-items-center">
        <iframe

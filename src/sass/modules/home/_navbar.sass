@@ -10,7 +10,7 @@ nav
     align-items: center
     justify-content: space-around
     padding-top: 23px
-   
+    
 .nav-links
     display: flex
     gap: 30px
@@ -20,7 +20,7 @@ nav
     color: grey
     position: relative
 
-    &:not(.not-after):after
+    &:after
         content: ""
         display: block 
         background-color: #ce1212
@@ -34,15 +34,7 @@ nav
     &:hover:after
         width: 100%
     
-.not-after:after
-    content: ""
-    display: block 
-    background-color: #ce1212
-    height: 3px
-    width: 100% 
-    position: absolute 
-    bottom: -10px
-    left: 0
+
    
 .nav-btn
     background-color: #d53535
