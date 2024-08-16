@@ -1,0 +1,83 @@
+.carousel-container 
+    /* width: 40vw; */
+    /* height: 60vh; */
+    // background: #d000ff
+    background: #f2f2f2
+    position: relative
+    overflow: hidden
+    padding: 50px
+   
+
+
+.carousel 
+    display: flex
+    transition: transform 0.5s ease
+
+
+
+.slide 
+    min-width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 50px
+    padding-top: 40px
+
+.slide img 
+    width: 15%
+    /* height: 100%; */
+    border-radius: 50%
+   
+
+
+.next , .previous 
+    padding: 1vh 2vw
+    border-radius: 20px
+    position: absolute
+    top: 50%
+    transform: translateY(-50%)
+
+
+.next
+    right:0px 
+
+.previous
+    left:0 
+
+
+.indicators-grp
+    width: 100%
+    padding: 2vh 0
+    position: absolute
+   
+    display: flex
+    align-items: center
+    justify-content: center
+    gap: 10px
+    padding-top: 30px
+
+.indicator
+    padding: 0.3vh 1vw
+    // background: rgb(0, 0, 0)
+    background: grey
+    border-radius: 50%
+    padding: 7px
+
+.activeIndicator
+    // background-color: aliceblue
+    background-color: #ce1212
+
+.left-slide
+    display: flex
+    /* background-color: green; */
+    flex-direction: column
+    
+    /* border-right: 1px solid red; */
+    padding: 10px
+    p
+        line-height: 23px
+.p1
+    text-align: center
+.h1
+    text-align: center
+    padding-top: 20px
