@@ -12064,6 +12064,11 @@ nav {
   border-radius: 20px;
 }
 
+@media (max-width: 430px) {
+  .section1 {
+    flex-direction: column-reverse;
+  }
+}
 .sec-about {
   padding-top: 50px;
   display: flex;
